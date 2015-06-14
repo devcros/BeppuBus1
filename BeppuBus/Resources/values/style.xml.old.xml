@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+<style name="Theme.APUdevX" parent="@andriod:style/Theme.Holo.Light">
+<item name="android:actionBarStyle">@style/Theme.APUdevX.ActionBar</item>
+</style>
+<style name="Theme.APUdevX.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+<item name="android:background">#ff880104</item>
+</style>
+</resources>

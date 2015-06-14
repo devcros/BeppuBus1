@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<color name="red_action_bar">#B71C1C</color>
+	<style name="llBox">
+		<item name="android:orientation">vertical</item>
+        <item name="android:minWidth">25px</item>
+        <item name="android:minHeight">25px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">0.0dp</item>
+	</style>
+	<style name="llBox_sub">
+		<item name="android:orientation">vertical</item>
+        <item name="android:minWidth">25px</item>
+        <item name="android:minHeight">25px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:background">#FAFAFA</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+	</style>
+	<style name="tvToDest">
+		<item name="android:paddingLeft">10dp</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#ff414141</item>
+	</style>
+	<style name="timeToNext">
+		<item name="android:paddingRight">10dp</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#C62828</item>
+		<item name="android:gravity">right|center</item>
+		<item name="android:textSize">50dp</item>
+	</style>
+	<style name="timeNextBus">
+		<item name="android:paddingRight">10dp</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#ff414141</item> 
+		<item name="android:gravity">right|center</item>
+		<item name="android:textSize">35dp</item>
+	</style>
+	<style name="flBox">
+		<item name="android:minWidth">25px</item>
+		<item name="android:minHeight">25px</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">4dp</item>
+		<item name="android:layout_marginRight">37dp</item>
+		<item name="android:background">#ffb0b0b0</item>
+		<item name="android:layout_marginLeft">37dp</item>
+	</style>
+	<style name="AppTheme"
+           parent="android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.DropDown</item>
+    </style>
+    
+    <style name="Theme.DropDown" parent="android:style/Theme.DeviceDefault.Light">
+    <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
+    </style>
+
+	<style name="MyDropDownListView" parent="@android:style/Widget.DeviceDefault.Light.ActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/red_action_bar</item>
+    </style>
+       
+</resources>
